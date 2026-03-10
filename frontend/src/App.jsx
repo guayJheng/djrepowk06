@@ -22,7 +22,7 @@ function App() {
             key={resume.id}
             className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition"
           >
-            <h2 className="text-xl font-bold">{resume.title}</h2>
+            <h2 className="text-xl font-bold">it's{resume.title}</h2>
             <p className="text-gray-600">{resume.summary}</p>
             <div className="mt-4 flex flex-wrap gap-2">
               {resume.skills.map((skill) => (
